@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+    <title>Gallery By Diogo Domingues</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </head>
+    <body>
+		<nav>
+			<div class="logo">Image Gallery</div>
+			
+			<a href="#" class="toggle-button">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+			</a>
+			
+			<ul class="links">
+			<a id="button-about" href="#"><li>About me</li></a>
+			<a href="https://www.linkedin.com/in/ddomingues97/" target="_blank"><li>Linkedin</li></a>
+			<a href="https://github.com/dd0mingues" target="_blank"><li>GitHub</li></a>
+			<a id="button-contact" href="#"><li>Contact</li></a>
+			</ul>
+		</nav>
+					<div class="popup">
+				<div class="popup-content">
+					<div class="close">+</div>
+					<h2 id="popup-header">About me</h2>
+						<p id="popup-text">An adaptable, motivated, and resourceful software developer with a strong work ethic and a passion for Artificial Intelligence and data analytics. An excellent team player who possesses the ability to work on my initiative. Currently looking for a developer opportunities that will allow me to work as part of a professional team of developers where I can get experience and grow up to a senior position within your company.</p>
+				</div>
+			</div>
+		<section>
+			<div class="slider">
+				<div class="slides">
+					<input type="radio" name="radio-btn" id="radio1">
+					<input type="radio" name="radio-btn" id="radio2">
+					<input type="radio" name="radio-btn" id="radio3">
+					<input type="radio" name="radio-btn" id="radio4">
+					<input type="radio" name="radio-btn" id="radio5">
+					<div class="slide first">
+						<img src="Images/Jealousy.png" alt="Jealousy">
+					</div>
+					<div class="slide">
+						<img src="Images/lostBoy.png" alt="Lost Boy">
+					</div>
+					<div class="slide">
+						<img src="Images/duality.png" alt="The Duality of Men">
+					</div>
+					<div class="slide">
+						<img src="Images/rift.png" alt="The Rift">
+					</div>
+					<div class="slide">
+						<img src="Images/dicotomy.png" alt="Out with the Old">
+					</div>
+					<div class="navigation-auto">
+						<div class="auto-btn1"></div>
+						<div class="auto-btn2"></div>
+						<div class="auto-btn3"></div>
+						<div class="auto-btn4"></div>
+						<div class="auto-btn5"></div>
+					</div>
+				</div>
+				<div class="navigation-manual">
+				<label for="radio1" class="manual-btn" id="r1" onclick="getButton()"></label>
+				<label for="radio2" class="manual-btn" id="r2" onclick="getButton()"></label>
+				<label for="radio3" class="manual-btn" id="r3" onclick="getButton()"></label>
+				<label for="radio4" class="manual-btn" id="r4" onclick="getButton()"></label>
+				<label for="radio5" class="manual-btn" id="r5" onclick="getButton()"></label>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p id="footer-text">"Jealousy"</p>
+		</footer>
+    </body>
+	
+	<script src="js/webArt.js"></script>
+</html>
